@@ -1,6 +1,4 @@
+#!/usr/bin/python3
 import sys
-
-def write_art():
-    sys.stderr.write('''/\\/\\Dora Korpar, 2015-10-19''')
-write_art()
+sys.stderr.write('and that piece of art is useful - Dora Korpar, 2015-10-19\n')
 sys.exit(1)
